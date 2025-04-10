@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+ 
+main {
+    flex: 1; /* Nimmt verfügbaren Platz ein */
+    padding: 2rem;
+    max-width: 960px; /* Beispielhafte maximale Breite */
+    margin: 0 auto; /* Zentrierung */
+    background-color: #fff;
+}
+ 
+footer {
+    margin-top: auto; /* Footer nach unten schieben */
+}
+nav {
+    background-color: #333; /* Dunkler Hintergrund */
+    padding: 10px; /* Innenabstand */
+    text-align: center; /* Zentriert die Links */
+}
+ 
+nav a {
+    color: white; /* Weiße Schriftfarbe */
+    text-decoration: none; /* Entfernt Unterstreichung */
+    margin: 0 15px; /* Abstand zwischen Links */
+    padding: 10px 15px; /* Klickbare Fläche vergrößern */
+    display: inline-block; /* Block-Layout für bessere Klickbarkeit */
+}
+ 
+nav a:hover {
+    background-color: #575757; /* Hintergrundfarbe beim Hover */
+    border-radius: 5px; /* Abgerundete Ecken beim Hover */
+}
+ 
