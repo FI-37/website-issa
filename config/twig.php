@@ -15,6 +15,3 @@ $twig = new Environment($loader, [
  
 return $twig;
 ?>
- 
- 
- 
