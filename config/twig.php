@@ -14,11 +14,4 @@ $twig = new Environment($loader, [
 ]);
  
 return $twig;
-<<<<<<< HEAD
 ?>
-=======
-?>
- 
- 
- 
->>>>>>> refs/remotes/origin/main
